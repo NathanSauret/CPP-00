@@ -2,7 +2,8 @@ NAME 	= phonebook
 CPP		= c++
 CFLAGS	= -Wall -Werror -Wextra -std=c++98
 
-SRC =	main.cpp
+SRC =	Src/main.cpp	\
+		Src/classes.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
