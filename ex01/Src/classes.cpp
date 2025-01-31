@@ -126,6 +126,7 @@ void	Contact::display_contact_line(int i)
 }
 
 
+// verify if a contact exist
 int	Contact::does_contact_exist(void)
 {
 	if (!this->first_name[0])
@@ -157,6 +158,7 @@ PhoneBook::~PhoneBook(void)
 }
 
 
+// add a contact
 void PhoneBook::add_contact(void)
 {
 	if (this->contact_num > 7)
@@ -167,6 +169,7 @@ void PhoneBook::add_contact(void)
 }
 
 
+// search for a contact after displaying every contacts
 void	PhoneBook::search(void)
 {
 	std::string	input;

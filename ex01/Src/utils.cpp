@@ -1,5 +1,6 @@
 #include "../Include/phonebook.hpp"
 
+// verify if an input is a is_space
 int	is_space(int input)
 {
 	if (input == ' ')
@@ -7,12 +8,14 @@ int	is_space(int input)
 	return (0);
 }
 
+// clear the terminal by doing multiples endl
 void	clear(void)
 {
 	for (int i_clear=0; i_clear < 10000; i_clear++)
 		std::cout << std::endl;
 }
 
+// check if the input contains only numbers
 int	is_only_numbers(std::string input)
 {
 	int	i;
