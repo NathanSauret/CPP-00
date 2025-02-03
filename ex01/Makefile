@@ -2,7 +2,8 @@ NAME 	= phonebook
 CPP		= c++
 CFLAGS	= -Wall -Werror -Wextra -std=c++98
 
-SRC =	Src/classes.cpp	\
+SRC =	Src/contact.cpp	\
+		Src/phonebook.cpp	\
 		Src/main.cpp	\
 		Src/utils.cpp
 

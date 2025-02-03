@@ -1,4 +1,16 @@
-#include "../Include/phonebook.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   utils.cpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nsauret <nsauret@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/03 14:02:23 by nsauret           #+#    #+#             */
+/*   Updated: 2025/02/03 14:02:24 by nsauret          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../Include/includes.hpp"
 
 // verify if an input is a is_space
 int	is_space(int input)

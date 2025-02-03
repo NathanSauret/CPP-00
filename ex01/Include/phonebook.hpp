@@ -1,17 +1,19 @@
 #ifndef	PHONEBOOK_HPP
 #define	PHONEBOOK_HPP
 
-// includes
-#include <iostream>
-#include <string>
-#include <algorithm>
-#include <cctype>
-#include "classes.hpp"
+#include "contact.hpp"
 
-// functions
-void		clear(void);
-int			is_space(int input);
-int			is_only_numbers(std::string input);
-std::string	norm_string_for_search(std::string input);
+class PhoneBook
+{
+	public:
+		Contact	contact[8];
+		int		contact_num = 0;
+
+		PhoneBook(void);
+		~PhoneBook(void);
+
+		void	add_contact(void);
+		void	search(void);
+};
 
 #endif
